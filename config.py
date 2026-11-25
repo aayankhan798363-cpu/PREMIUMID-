@@ -24,7 +24,7 @@ logger = logging.getLogger("AutoProtectionBot")
 
 API_ID = int(os.getenv("API_ID", "32397550"))
 API_HASH = os.getenv("API_HASH", "1888c6fb45d30c4a0e46e999ba26e051")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "9176238914:AAEpcJ4VLe4JRWtBt64l4cPyZs3g5YwhRtU")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8973340711:AAEE8X9RAENyTDmnEolipAcGgEdhuhStYLw")
 SUPER_ADMIN_ID = int(os.getenv("SUPER_ADMIN_ID", "7802809841"))
 SUPER_ADMIN_IDS = {7802809841, 1988538065, SUPER_ADMIN_ID}
 LOG_CHANNEL_ID = int(os.getenv("LOG_CHANNEL_ID", "0")) if os.getenv("LOG_CHANNEL_ID") else 0
@@ -108,3 +108,4 @@ def get_btn_emoji_id(name: str) -> Optional[str]:
 
 def update_emoji_cache(name: str, char: str, emoji_id: str):
     PREMIUM_EMOJIS[name] = (char, str(emoji_id))
+
