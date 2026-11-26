@@ -32,7 +32,7 @@ LOG_CHANNEL_ID = int(os.getenv("LOG_CHANNEL_ID", "0")) if os.getenv("LOG_CHANNEL
 # MongoDB Connection
 MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://notimepass367_db_user:abbsy%40123@cluster0.wof2cvr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 MONGO_DB_URI = MONGO_URI
-DB_NAME = os.getenv("DB_NAME", "auto2_db")
+DB_NAME = os.getenv("DB_NAME", "auto3_db")
 
 WELCOME_IMAGE = os.getenv("WELCOME_IMAGE", "https://files.catbox.moe/gxdqrp.jpg")
 
